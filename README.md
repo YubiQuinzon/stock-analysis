@@ -26,12 +26,13 @@ Looking at the original code vs the refractor coder we can see a few differences
 ![2017_runtime_r](images/2017_runtime_r.PNG)
 
 ### Original code
-![original_code](images/original_code.PNG)
+![original_code](images/original_code.png)
 Here we can see that we had to reassign volume every pass
 
 ### Original code
-![refactored_code](images/refractored_code.PNG)
+![refactored_code](images/refractored_code.png)
 Here we can see we added the index volume to an array instead
 
 ## <u> Summary </u>
-In summary, refactoring our code, we have determined a better stock to invest in and created a more efficient code. 
+In summary, refactoring our code, we have determined a better stock to invest in and created a more efficient code. Refactoring can prove as an advantage in the coding process as looking back at our code with fresh eyes can help us improve the efficienct of our code.
+This is best seen in our original VBA script as not only did it provide a more efficient run time, but it also provided a more concise code which produced the same results.
