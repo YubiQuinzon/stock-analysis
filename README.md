@@ -11,7 +11,7 @@ Running our date through the code written in VBA, we can come to a few conclussi
 
 Looking at the original code vs the refractor coder we can see a few differences:
 * The main differences between the code is the efficiency at which it runs. The refactored code runs faster the original one. As we can, in the images below, the refractored run time is relatively signficantly faster than the original code.
-* The difference in time can be attributed to the efficient use of arrays. Using arrays helps reduces the need of reassigning variables constantly as we just add information to an array.
+* The difference in time can be attributed to the efficient use of arrays. Using arrays may have helped with this result as it reduces the need of reassigning variables constantly as we just add information to an array.
 
 ### 2017 Database Analysis
 ![2017_photo](images/2017_photo.png)
@@ -19,11 +19,19 @@ Looking at the original code vs the refractor coder we can see a few differences
 ### 2018 Database Analysis
 ![2018_photo](images/2018_photo.png)
 
-### Original code
-![2017_runtime](images/2017_runtime.png)
+### Original code runtime
+![2017_runtime](images/2017_runtime.PNG)
 
-### Refactored code
-![2017_runtime_r](images/2017_runtime_r.png)
+### Refactored code runtime
+![2017_runtime_r](images/2017_runtime_r.PNG)
+
+### Original code
+![original_code](images/original_code.PNG)
+Here we can see that we had to reassign volume every pass
+
+### Original code
+![refactored_code](images/refractored_code.PNG)
+Here we can see we added the index volume to an array instead
 
 ## <u> Summary </u>
 In summary, refactoring our code, we have determined a better stock to invest in and created a more efficient code. 
